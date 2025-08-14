@@ -17,7 +17,7 @@ const colors = {
 
 // Configuration
 const config = {
-    model: 'gpt-3.5-turbo',
+    model: 'gpt-5',
     baseURL: 'https://api.openai.com/v1', // Custom endpoint
     apiKey: process.env.OPENAI_API_KEY || '',
     temperature: 0.3,
